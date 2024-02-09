@@ -3,9 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+    <title>Empresas Internacionales</title>
 </head>
 <body>
+
+    <style>
+        html,
+      body {
+        font-family: "Rubik", sans-serif;
+      }
+      @media (min-width: 1024px) {
+        .top-navbar {
+          display: inline-flex !important;
+        }
+      </style>
+      <nav class="flex items-center bg-gray-800 p-3 flex-wrap">
+            <a href="" class="p-2 mr-4 inline-flex items-center">
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="fill-current text-white h-8 w-8 mr-2"
+              >
+                <path
+                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
+                />
+              </svg>
+              <span class="text-xl text-white font-bold uppercase tracking-wide"
+                >Perfil 1</span
+              >
+            </a>
+            <button
+              class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+              data-target="#navigation"
+            >
+              <i class="material-icons">menu</i>
+            </button>
+            <div
+              class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+              id="navigation"
+            >
+              <div
+                class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto"
+              >
+                <a
+                  href="../index.html"
+                  class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+                >
+                  <span>Home</span>
+                </a>
+                <a
+                  href="empresas.html"
+                  class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+                >
+                  <span>Empresas</span>
+                </a>
+                <a
+                  href="internacionales.html"
+                  class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+                >
+                  <span>Internacionales</span>
+                </a>
+              </div>
+            </div>
+          </nav>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+      <script>
+        $(document).ready(function() {
+        $(".nav-toggler").each(function(_, navToggler) {
+          var target = $(navToggler).data("target");
+          $(navToggler).on("click", function() {
+            $(target).animate({
+              height: "toggle"
+            });
+          });
+        });
+      });
+      </script>
+
+
+  <div class="z-30 relative items-center justify-center w-full h-full overflow-auto">
+    <div class="inset-0 h-screen bg-cover bg-center" 
+        style=" 
+        background-image: 
+        url('https://wallpapercave.com/wp/wp6689710.jpg');"
+    >
+    </div>
+    <div class="absolute inset-0 z-20 flex items-center justify-center h-screen w-full bg-gray-900 bg-opacity-75"></div>
+    <div class="absolute inset-0  z-30  flex flex-col items-center justify-center">
+        <div class="shadow-2xl rounded-lg w-4/5 h-96 bg-cover bg-center"
+            style=" 
+            background-image: 
+            url('https://wallpapercave.com/wp/wp6689710.jpg');">
+
+            <div class="grid grid-cols-12 gap-1">
+                <div class="relative my-6 px-8 col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-7 xxl:col-span-7">
+                    <div class="border-l-4 border-gray-400 py-20 px-5 mx-2 absolute left-0">
+                        <p class="italic text-white text-xl md:text-4xl lg:text-6xl uppercase text-center  font-semibold ">
+                            The Mysteries Of The Forest
+                        </p>
+                    </div>
+                    <div class="text-gray-400 font-semibold text-xl mb-4">07</div>
+                    <div class="absolute border-gray-400 border-t-4 bottom-0 py-1 px-4 w-4/5"></div>
+                </div>
+                <div class="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5">
+                    <div class="relative bg-pink-900 h-full md:h-96 w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
+                        <div class="p-8">
+                            <p class="text-white text-xs md:text-sm lg:text-xl mb-4">
+                                Forests are truly amazing places. 
+                                Combining impressive biodiversity with natural beauty, 
+                                the woods of the world can be both captivating and perplexing. 
+                                A hike through a forest can be a relaxing way to pass an afternoon or, 
+                                sometimes, a glimpse into the unknown.
+                            </p>
+                            <div class="bottom-0 absolute p-2 right-0">
+                                <button class="opacity-75 bg-gray-100 hover:bg-pink-900 hover:text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                    <span>LEARN MORE</span>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
     
 </body>
 </html>
