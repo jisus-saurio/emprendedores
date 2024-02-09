@@ -1,0 +1,65 @@
+.pb {
+    background: url("../img/Div.gif") center no-repeat;
+    background-size: cover;
+}
+.pb {
+    background: url("../img/Div.gif") center no-repeat;
+    background-size: cover;
+}
+.global {
+    text-align: center;
+    margin-top: 3.9rem;
+}
+
+.dis-sto .global {
+    margin-top: 6.9rem;
+    
+}
+
+.global .circle {
+    color: #3bcc75;
+    margin: 2.4rem 0;
+}
+
+.global .h2-sub {
+    letter-spacing: -1px;
+    line-height: .42;
+}
+.h2-sub {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #b7ffd4;
+    font-weight: 600;
+    line-height: .4;
+}
+.global .h2-sub {
+    letter-spacing: -1px;
+    line-height: .42;
+}
+.h2-sub {
+    font-size: 3rem;    
+}
+.head {
+    color: #2c2c2c;
+    font-size: 3.7rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+}
+.head {
+    font-size: 4.7rem;
+    letter-spacing: .8rem;
+}
+.container {
+    
+    max-width: 122.5rem;
+    margin:  0 auto;
+    padding: 0 2.4rem;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
